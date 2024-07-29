@@ -1,6 +1,6 @@
 <div align="center">
   <br />
-    <a href="https://youtube.com/playlist?list=PLJT1e2CqMCFDnMjX4U4MC2agPKcCbkbF-&si=hvuWRYAWYqcxH6wF" target="_blank">
+    <a href="https://youtu.be/51Hpb76SCII" target="_blank">
       <img src="public/header.png" alt="Project Banner">
     </a>
   <br />
@@ -26,12 +26,13 @@
 3. 🔋 [Features](#features)
 4. 🚀 [Quick Start](#quick-start)
 5. 🕸️ [Snippets (Code to Copy)](#snippets)
+6. 🔗 [Assets](#links)
 
 ## 🚨 Tutorial
 
 This repository contains the code corresponding to an in-depth tutorial available on our YouTube channel, <a href="https://www.youtube.com/@codespirit369/videos" target="_blank"><b>Code Spirit</b></a>.
 
-<a href="https://youtu.be/hs6BtY9ndXA" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/1736fca5-a031-4854-8c09-bc110e3bc16d" /></a>
+<a href="https://youtu.be/51Hpb76SCII" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/1736fca5-a031-4854-8c09-bc110e3bc16d" /></a>
 
 ## <a name="tech-stack">⚙️ Tech Stack</a>
 
@@ -46,19 +47,19 @@ Welcome to the Personal Portfolio Website project! This portfolio showcases your
 
 ## <a name="features">🔋 Features</a>
 
-👉 Hero Section: A welcoming section with your name, profession, and a brief introduction.
+👉 **Hero Section**: A welcoming section with your name, profession, and a brief introduction.
 
-👉 About Section: A detailed section about your background and professional journey.
+👉 **About Section**: A detailed section about your background and professional journey.
 
-👉 Skills Section: A display of your technical skills with visual progress indicators.
+👉 **Skills Section**: A display of your technical skills with visual progress indicators.
 
-👉 Experiences Section: A timeline of your professional experiences and achievements.
+👉 **Experiences Section**: A timeline of your professional experiences and achievements.
 
-👉 Projects Section: A showcase of your projects with descriptions and links.
+👉 **Projects Section**: A showcase of your projects with descriptions and links.
 
-👉 Contact Me Section: A contact form for visitors to reach out to you.
+👉 **Contact Me Section**: A contact form for visitors to reach out to you.
 
-👉 Responsive Design: Ensures optimal viewing experience on all devices.
+👉 **Responsive Design**: Ensures optimal viewing experience on all devices.
 
 ## <a name="quick-start">🚀 Quick Start</a>
 
@@ -96,6 +97,124 @@ npm run dev
 Open [http://localhost:3000](http://localhost:3000) in your browser to view the project.
 
 ## <a name="snippets">🕸️ Code Snippets</a>
+
+<details>
+<summary><code>data.json</code></summary>
+
+```typescript
+{
+  "name": "John Doe",
+  "role": "Web Developer",
+  "bio": "A passionate web developer with expertise in creating dynamic and responsive web applications. With 8 years of experience in the industry, I have honed my skills in various technologies including HTML, CSS, JavaScript, React.js, and Next.js.",
+  "first_name": "John",
+  "last_name": "Doe",
+  "age": 30,
+  "nationality": "American",
+  "location": "New York, USA",
+  "phone": "+1 234 567 890",
+  "email": "johndoe@example.com",
+  "github_handle": "johndoe",
+  "languages": ["English", "Spanish"],
+  "years_of_experience": 8,
+  "projects_completed": 50,
+  "happy_customers": 40,
+  "awards_gained": 5,
+  "skills": [
+    {
+      "skill": "HTML",
+      "percentage": 90
+    },
+    {
+      "skill": "CSS",
+      "percentage": 85
+    },
+    {
+      "skill": "JavaScript",
+      "percentage": 80
+    },
+    {
+      "skill": "React.js",
+      "percentage": 75
+    },
+    {
+      "skill": "Next.js",
+      "percentage": 70
+    },
+    {
+      "skill": "Node.js",
+      "percentage": 65
+    },
+    {
+      "skill": "MongoDB",
+      "percentage": 60
+    }
+  ],
+  "experiences": [
+    {
+      "year": "2020-Present",
+      "title": "Senior Web Developer",
+      "company": "Tech Solutions Inc.",
+      "description": "Led a team of developers to create responsive web applications. Enhanced user experience through innovative design and implementation."
+    },
+    {
+      "year": "2017-2020",
+      "title": "Web Developer",
+      "company": "Creative Minds LLC",
+      "description": "Developed and maintained websites for various clients. Collaborated with designers to bring creative concepts to life."
+    },
+    {
+      "year": "2015-2017",
+      "title": "Junior Web Developer",
+      "company": "Web Solutions Ltd.",
+      "description": "Assisted in the development of web applications. Gained experience in front-end and back-end technologies."
+    },
+    {
+      "year": "2013-2017",
+      "title": "Bachelor of Science in Computer Science",
+      "company": "University of Technology",
+      "description": "Graduated with honors. Focused on web development and software engineering."
+    }
+  ],
+  "projects": [
+    {
+      "imageUrl": "/images/1.png",
+      "title": "ChatBot",
+      "url": "https://www.example.com/chatbot"
+    },
+    {
+      "imageUrl": "/images/2.png",
+      "title": "AI Image Generator",
+      "url": "https://www.example.com/image-generator"
+    },
+    {
+      "imageUrl": "/images/3.png",
+      "title": "Weather App",
+      "url": "https://www.example.com/weather-app"
+    }
+  ],
+  "social_links": [
+    {
+      "icon": "/images/linkedin.svg",
+      "url": "https://www.linkedin.com/in/johndoe"
+    },
+    {
+      "icon": "/images/twitter.svg",
+      "url": "https://www.twitter.com/johndoe"
+    },
+    {
+      "icon": "/images/github.svg",
+      "url": "https://www.github.com/johndoe"
+    },
+    {
+      "icon": "/images/instagram.svg",
+      "url": "https://www.instagram.com/johndoe"
+    }
+  ]
+}
+
+```
+
+</details>
 
 <details>
 <summary><code>components/skill-progress.tsx</code></summary>
@@ -182,7 +301,7 @@ export function SkillProgress({ skill }: Props) {
 </details>
 
 <details>
-<summary><code>global.css</code></summary>
+<summary><code>app/global.css</code></summary>
 
 ```typescript
 @tailwind base;
@@ -269,3 +388,7 @@ export function SkillProgress({ skill }: Props) {
 ```
 
 </details>
+
+## <a name="links">🔗 Assets</a>
+
+Public assets used in the project can be found [here](https://drive.google.com/file/d/13VjpPnSMjoKnGh47EwOADTSXF5VkGfJR/view?usp=sharing)
