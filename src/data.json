@@ -1,0 +1,109 @@
+{
+  "name": "John Doe",
+  "role": "Web Developer",
+  "bio": "A passionate web developer with expertise in creating dynamic and responsive web applications. With 8 years of experience in the industry, I have honed my skills in various technologies including HTML, CSS, JavaScript, React.js, and Next.js.",
+  "first_name": "John",
+  "last_name": "Doe",
+  "age": 30,
+  "nationality": "American",
+  "location": "New York, USA",
+  "phone": "+1 234 567 890",
+  "email": "johndoe@example.com",
+  "github_handle": "johndoe",
+  "languages": ["English", "Spanish"],
+  "years_of_experience": 8,
+  "projects_completed": 50,
+  "happy_customers": 40,
+  "awards_gained": 5,
+  "skills": [
+    {
+      "skill": "HTML",
+      "percentage": 90
+    },
+    {
+      "skill": "CSS",
+      "percentage": 85
+    },
+    {
+      "skill": "JavaScript",
+      "percentage": 80
+    },
+    {
+      "skill": "React.js",
+      "percentage": 75
+    },
+    {
+      "skill": "Next.js",
+      "percentage": 70
+    },
+    {
+      "skill": "Node.js",
+      "percentage": 65
+    },
+    {
+      "skill": "MongoDB",
+      "percentage": 60
+    }
+  ],
+  "experiences": [
+    {
+      "year": "2020-Present",
+      "title": "Senior Web Developer",
+      "company": "Tech Solutions Inc.",
+      "description": "Led a team of developers to create responsive web applications. Enhanced user experience through innovative design and implementation."
+    },
+    {
+      "year": "2017-2020",
+      "title": "Web Developer",
+      "company": "Creative Minds LLC",
+      "description": "Developed and maintained websites for various clients. Collaborated with designers to bring creative concepts to life."
+    },
+    {
+      "year": "2015-2017",
+      "title": "Junior Web Developer",
+      "company": "Web Solutions Ltd.",
+      "description": "Assisted in the development of web applications. Gained experience in front-end and back-end technologies."
+    },
+    {
+      "year": "2013-2017",
+      "title": "Bachelor of Science in Computer Science",
+      "company": "University of Technology",
+      "description": "Graduated with honors. Focused on web development and software engineering."
+    }
+  ],
+  "projects": [
+    {
+      "imageUrl": "/images/1.png",
+      "title": "ChatBot",
+      "url": "https://www.example.com/chatbot"
+    },
+    {
+      "imageUrl": "/images/2.png",
+      "title": "AI Image Generator",
+      "url": "https://www.example.com/image-generator"
+    },
+    {
+      "imageUrl": "/images/3.png",
+      "title": "Weather App",
+      "url": "https://www.example.com/weather-app"
+    }
+  ],
+  "social_links": [
+    {
+      "icon": "/images/linkedin.svg",
+      "url": "https://www.linkedin.com/in/johndoe"
+    },
+    {
+      "icon": "/images/twitter.svg",
+      "url": "https://www.twitter.com/johndoe"
+    },
+    {
+      "icon": "/images/github.svg",
+      "url": "https://www.github.com/johndoe"
+    },
+    {
+      "icon": "/images/instagram.svg",
+      "url": "https://www.instagram.com/johndoe"
+    }
+  ]
+}
