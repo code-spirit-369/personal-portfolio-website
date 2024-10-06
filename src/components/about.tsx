@@ -99,7 +99,7 @@ export default function About() {
                 asChild
               >
                 <Link
-                  href="/cv_template.pdf"
+                  href="/cv.pdf"
                   target="_blank"
                   className="flex items-center space-x-4"
                 >
